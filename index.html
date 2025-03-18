@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Propriedae Position</h1>
+
+    <p>5 valores de posicoes diferentes</p>
+
+    <ul>
+        <li>static</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>stikey</li>
+    </ul>
+
+    <p>Os elementos sao posicionados usando as propriedades top, bottom, left e right</p>
+
+    <h2 id="segundoTitulo" class="tituloCor">Position static</h2>
+
+    <p>Os elementos em html por padrao ja sao posicionados em static. 
+        Nessa posicao, eles nao sao afetados pelas propriedades</p>
+
+    <h3 class="tituloCor">Exemplo static</h3>
+    <div id="static"></div>
+
+    <h2 class="tituloCor">Position relative</h2>
+    <p>Sao afetados pelas prorpiedades top, left , right e bottom 
+        <strong>O conteudo nao se ajuda para se encaixar no espaco deixado pelo elmentos</strong>
+    </p>
+    <h3 class="tituloCor">Exemplo</h3>
+    <div id="relative"></div>
+    <div id="relative"></div>
+    <div id="relative"></div>
+
+
+    <h2 class="tituloCor">Position fixed</h2>            
+    <p>O elemento é posicionado em relacao a viewport, ou seja, ele vai permanecer no mesmo lugar da pagina </p>
+    <h3 class="tituloCor">Exemplo</h3>
+    <div id="fixed"></div>
+
+    <h2 class="tituloCor">Position Absolut</h2>
+    <p>O elemento e posicionado com relacao ao seu ancestral mais proximo</p>
+    <!-- Só funciona se o acestral tiver uma posicao definida, 
+     caso contrario pegará o anterior -->
+    <h3 class="tituloCor">Exemplo</h3>
+    <div id="pai">
+        <div id="filho"></div>
+    </div>
+
+
+    <h2 class="tituloCor">Position Stick</h2>
+    <p>Um elemento sticky é posicionado com base na posicao de rolagem do usuario.
+        ele alterna entre relative e fixed dependendo da posicao de rolagem
+    </p>
+    <div id="sticky"></div>
+
+
+
+
+
+
+
+</body>
+</html>

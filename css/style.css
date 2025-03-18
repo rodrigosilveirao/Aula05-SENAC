@@ -1,0 +1,72 @@
+body{
+    height: calc(100vh + 2000px);
+}
+
+
+#segundoTitulo{
+    border: 2px solid dodgerblue;
+}
+
+.tituloCor {
+    color: red;
+
+}
+
+
+div#static{/* nao é afetado pelas propridedades left... */
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+
+}
+
+div#relative{
+    border: 1px solid red;
+    height: 20px;
+    width: 20px;
+    position: relative;/* ao colocar relative torna-se possivel usar left... */
+    left: 100px; 
+}
+
+div#fixed{
+    border: 1px solid red;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+div#sticky{
+     position: sticky;
+    top: 0;
+    background-color: green;
+    height: 20px;
+}
+
+div#pai{
+    border: 1px solid red;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.575);
+    border-radius: 43px;
+}
+
+div#filho{
+    border: 1px solid blue;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    
+}
+
+div#pai:hover div#filho{
+    border-radius: 50px;
+    display: block;
+
+
+}

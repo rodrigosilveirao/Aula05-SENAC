@@ -1,0 +1,42 @@
+body{
+    background-color: dodgerblue;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin-left: 25px;
+}
+
+
+div#textos{
+
+    padding: 4%;
+}
+
+div#img{
+    margin: 0% auto;
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    background: url(pexels-nikolaos-dimou-1250289.jpg) no-repeat center center/cover;
+}
+
+div#rodape{
+    text-align: center;
+    
+}
